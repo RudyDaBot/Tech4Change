@@ -56,6 +56,7 @@ password.bind('<FocusOut>', clickOutP)
 # Login Error Displayer
 
 def open_another_script():
+    root.quit()
     script_path = 'home.py'
     subprocess.Popen(['python', script_path])
 
